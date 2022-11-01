@@ -1,0 +1,15 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  color: #223865;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.logo {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
