@@ -3,3 +3,23 @@ body {
   font-size: 15px;
   color: $logo-color;
 }
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

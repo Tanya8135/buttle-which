@@ -20,24 +20,44 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header>
-        <div class="container header">
-<nav class="header__nav">
-    <a href="index.html" class="logo">Saturnbird.</a>
-    <ul class="header__item">
-        <li class="header__list">Home</li>
-        <li class="header__list">Category</li>
-        <li class="header__list">Shop</li>
-        <li class="header__list">Product</li>
-    </ul>
-<div class="contacts"></div>
-    <ul class="contacts__item">
-        <li class="contacts__list"><a href="">Search</a></li>
-        <li class="contacts__list"><a href=""></a></li>
-    </ul>
+    <header class="header-border">
+      <div class="container header-nav">
+        <nav class="header-nav">
+          <a href="index.html" class="logo link">Saturnbird.</a>
+          <ul class="header-item list">
+            <li class="header-list">
+              <a href="index.html" class="header-link link current">Home</a>
+            </li>
+            <li class="header-list">
+              <a href="" class="header-link link">Category</a>
+            </li>
+            <li class="header-list">
+              <a href="" class="header-link link">Shop</a>
+            </li>
+            <li class="header-list">
+              <a href="" class="header-link link">Product</a>
+            </li>
+          </ul>
+          </nav>
 
-</nav>
-        </div>
+          <ul class="info-item list">
+            <li class="info-list">
+              <a href="" class="info-link info-icon link">
+                <svg viewBox="0 0 100 100" width="19" height="18" class="header-icon">
+                  <use xlink:href="./image/icon.svg#icon-search"></use>
+                </svg>
+                Search</a
+              >
+            </li>
+            <li class="contacts-list">
+              <a href="" class="info-link info-icon link">
+                <svg viewBox="0 0 100 100" width="17" height="18" class="header-icon">
+                  <use xlink:href="./image/icon.svg#icon-buy"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+      </div>
     </header>
   </body>
 </html>

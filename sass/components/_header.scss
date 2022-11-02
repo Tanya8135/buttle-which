@@ -1,3 +1,82 @@
-.logo {
-    text-decoration: none;
+.header-border {
+  border-bottom: 1px solid $line-header;
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.current {
+  position: relative;
+}
+
+.header-list .current::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 2px;
+  background-color: $line-under-nav;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  @include font-min(30px, 1.3);
+  font-family: "Noto Serif Display", serif;
+  padding-top: 18px;
+  padding-bottom: 16px;
+  margin-right: 190px;
+}
+
+.header-item {
+  display: flex;
+}
+
+.header-list {
+  margin-right: 75px;
+
+  &:nth-child(4) {
+    margin-right: 0;
+  }
+}
+
+.header-link {
+  padding-top: 80px;
+  padding-bottom: 28px;
+}
+
+.info-item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  // align-self: center;
+  // align-content: center;
+    margin-left: 50px;
+}
+
+.info-list {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.info-link {
+  margin-left: 32px;
+}
+
+.info-icon {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+    margin-right: 11px;
+    fill: $icon-header;
+  }
