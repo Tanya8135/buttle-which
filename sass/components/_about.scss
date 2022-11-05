@@ -1,0 +1,53 @@
+.about {
+  padding-top: 174px;
+  padding-bottom: 108px;
+}
+.about-box {
+  border-top: 2px solid $border-grey;
+  border-bottom: 2px solid $border-grey;
+}
+
+.about-img {
+  padding: 0;
+  width: 400px;
+  border-right: 2px solid $border-grey;
+}
+
+.about-list {
+  display: flex;
+  padding-top: 110px;
+}
+
+.about-item {
+  margin-right: 30px;
+  width: 155px;
+  height: 224px;
+
+  &:nth-child(2) {
+    margin-right: 0;
+  }
+}
+
+.about-text {
+  @include font(15px, 500, 1.7);
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 110px;
+  width: 301px; 
+}
+
+.description {
+  @include font(15px, 500, 1.7);
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 110px;
+  width: 750px;
+}
+
+.about-title {
+  @include font(70px, 500, 1.1);
+  font-family: "Noto Serif Display", serif;
+  text-align: start;
+  padding-top: 88px;
+  width: 700px;
+}
