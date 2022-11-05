@@ -47,7 +47,7 @@ ul {
 
 .header-border {
   border-bottom: 1px solid #97A1B6;
-  width: 1250px;
+  max-width: 1250px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -142,4 +142,85 @@ ul {
 .header-icon {
   margin-right: 11px;
   fill: #223865;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero__title {
+  font-size: 100px;
+  line-height: 1.4;
+  font-family: "Noto Serif Display", serif;
+  padding-top: 150px;
+  padding-left: 345px;
+}
+
+.hero__text {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.7;
+  position: absolute;
+  top: 65%;
+  left: 1%;
+  padding-left: 175px;
+  padding-right: 5px;
+  max-width: 350px;
+}
+
+.hero__title--text {
+  position: relative;
+}
+
+.hero__title--second {
+  font-size: 90px;
+  line-height: 1.4;
+  font-family: "Noto Serif Display", serif;
+  padding-top: 30px;
+  padding-left: 165px;
+  color: #223865;
+}
+
+.hero__title--img {
+  position: relative;
+}
+
+.button-img {
+  position: absolute;
+  top: 35%;
+  left: 64%;
+  border-radius: 50px;
+}
+
+.button-box {
+  position: absolute;
+  top: 38%;
+  left: 35.9%;
+  min-width: 220px;
+  height: 85px;
+  border: 2px dashed white;
+  margin-left: 350px;
+  border-radius: 50px;
+}
+
+.hero-n {
+  position: absolute;
+  z-index: 1;
+  max-width: 38px;
+  color: white;
+  overflow: hidden;
+}
+
+.hero__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bottels-img {
+  position: absolute;
+  top: 75px;
+  right: 0px;
+  opacity: 50%;
+  z-index: -1;
 }/*# sourceMappingURL=main.css.map */
