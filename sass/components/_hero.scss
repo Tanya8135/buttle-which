@@ -4,7 +4,6 @@
 
 .hero__title {
   @include font-min(100px, 1.4);
-  font-family: "Noto Serif Display", serif;
   padding-top: 150px;
   padding-left: 345px;
 }
@@ -25,7 +24,6 @@
 
 .hero__title--second {
   @include font-min(90px, 1.4);
-  font-family: "Noto Serif Display", serif;
 
   padding-top: 30px;
   padding-left: 165px;

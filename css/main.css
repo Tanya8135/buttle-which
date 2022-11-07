@@ -12,6 +12,18 @@ ul {
   margin: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Noto Serif Display", serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .link {
   text-decoration: none;
   margin: 0;
@@ -151,7 +163,6 @@ ul {
 .hero__title {
   font-size: 100px;
   line-height: 1.4;
-  font-family: "Noto Serif Display", serif;
   padding-top: 150px;
   padding-left: 345px;
 }
@@ -175,7 +186,6 @@ ul {
 .hero__title--second {
   font-size: 90px;
   line-height: 1.4;
-  font-family: "Noto Serif Display", serif;
   padding-top: 30px;
   padding-left: 165px;
   color: #223865;
@@ -286,7 +296,6 @@ ul {
   font-size: 70px;
   font-weight: 500;
   line-height: 1.1;
-  font-family: "Noto Serif Display", serif;
   text-align: start;
   padding-top: 88px;
   padding-bottom: 32px;
@@ -294,6 +303,63 @@ ul {
 }
 
 .test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product {
+  padding-bottom: 108px;
+}
+
+.product-title {
+  font-size: 70px;
+  line-height: 1.4;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.product-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 70px;
+}
+
+.product-item {
+  margin-right: 50px;
+}
+.product-item:nth-child(4) {
+  margin-right: 0;
+}
+
+.product-link {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  color: rgba(34, 56, 101, 0.69);
+  position: relative;
+}
+
+.product-link:hover::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #223865;
+  bottom: 0;
+  top: 150%;
+  left: 0%;
+}
+
+.product-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
