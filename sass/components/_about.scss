@@ -3,14 +3,15 @@
   padding-bottom: 108px;
 }
 .about-box {
-  border-top: 2px solid $border-grey;
-  border-bottom: 2px solid $border-grey;
+  border-top: 1px solid $border-grey;
+  border-bottom: 1px solid $border-grey;
 }
 
-.about-img {
+.about-content {
   padding: 0;
   width: 400px;
-  border-right: 2px solid $border-grey;
+  height: 570px;
+  border-right: 1px solid $border-grey;
 }
 
 .about-list {
@@ -21,7 +22,7 @@
 .about-item {
   margin-right: 30px;
   width: 155px;
-  height: 224px;
+  // height: 224px;
 
   &:nth-child(2) {
     margin-right: 0;
@@ -39,9 +40,16 @@
 .description {
   @include font(15px, 500, 1.7);
   margin: 0;
+  
   padding-top: 32px;
   padding-bottom: 110px;
+  margin-left: 50px;
   width: 750px;
+}
+
+.border-about {
+  border-top: 1px solid $border-grey;
+  border-bottom: 1px solid $border-grey;
 }
 
 .about-title {
@@ -49,5 +57,10 @@
   font-family: "Noto Serif Display", serif;
   text-align: start;
   padding-top: 88px;
+  padding-bottom: 32px;
   width: 700px;
+}
+
+.test {
+  display: flex;
 }

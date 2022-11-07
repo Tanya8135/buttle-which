@@ -230,14 +230,15 @@ ul {
 }
 
 .about-box {
-  border-top: 2px solid #D0D5DE;
-  border-bottom: 2px solid #D0D5DE;
+  border-top: 1px solid #D0D5DE;
+  border-bottom: 1px solid #D0D5DE;
 }
 
-.about-img {
+.about-content {
   padding: 0;
   width: 400px;
-  border-right: 2px solid #D0D5DE;
+  height: 570px;
+  border-right: 1px solid #D0D5DE;
 }
 
 .about-list {
@@ -250,7 +251,6 @@ ul {
 .about-item {
   margin-right: 30px;
   width: 155px;
-  height: 224px;
 }
 .about-item:nth-child(2) {
   margin-right: 0;
@@ -273,7 +273,13 @@ ul {
   margin: 0;
   padding-top: 32px;
   padding-bottom: 110px;
+  margin-left: 50px;
   width: 750px;
+}
+
+.border-about {
+  border-top: 1px solid #D0D5DE;
+  border-bottom: 1px solid #D0D5DE;
 }
 
 .about-title {
@@ -283,5 +289,12 @@ ul {
   font-family: "Noto Serif Display", serif;
   text-align: start;
   padding-top: 88px;
+  padding-bottom: 32px;
   width: 700px;
+}
+
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
