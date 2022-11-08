@@ -333,7 +333,7 @@ img {
 }
 
 .product-item {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 .product-item:nth-child(4) {
   margin-right: 0;
@@ -345,6 +345,9 @@ img {
   line-height: 1;
   color: rgba(34, 56, 101, 0.69);
   position: relative;
+}
+.product-link:hover {
+  color: #223865;
 }
 
 .product-link:hover::after {
@@ -363,4 +366,18 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.product-text {
+  font-size: 12px;
+  line-height: 1;
+  color: #212121;
+  padding-top: 15px;
+}
+
+.product-price {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  padding-top: 8px;
 }/*# sourceMappingURL=main.css.map */
